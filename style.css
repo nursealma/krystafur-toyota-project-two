@@ -65,9 +65,9 @@ body {
     background-image: url(./assets/images/home-image-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 590px;
+    height: 100%;
     width: 100%;
-    background-size: contain;
+    background-size: cover;
 
 }
 
@@ -75,16 +75,23 @@ body {
     font-family: 'Dokdo', sans-serif;
     color: #FFC600;
     font-size: 41.5px;
-    margin-left: 10%;
+}
+
+a.headerLogo {
+    position: relative;
+    top: 20px;
+    left: 20px;
+
 }
 
 .headerNav {
     float: right; 
+    padding: 10px 20px 10px 10px;
 }
 
 .headerNav li {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
 
 }
 .headerNav li a {
@@ -96,7 +103,7 @@ body {
     color: #fafffe;
     text-transform: uppercase;
     display: inline-block; 
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
 
 }
 .headerNav li a:hover {
@@ -104,15 +111,36 @@ body {
 }
 
 .headerHero {
-    position:relative;
-
+    display: flex;
     width: 100%;
 }
 
 .heroImage {
-    position:relative;
-    top: 200px;
-    
+    display: flex;
+    width:40%;
+    transform:translateY(20%)
+
+}
+
+.heroText {
+    display: inline-block;
+    color: white;
+    margin-top: 100px;
+}
+
+.heroText h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #FAFFFE;
+}
+
+.heroText h1 {
+    color: #FFC600;
+    font-family: 'Dokdo', cursive;
+    font-size: 5.5rem;
+    margin: 0;
+
 }
 
 
@@ -121,20 +149,151 @@ body {
 /* ABOUT */
 
 .homeAbout {
-    background-color: #555F02;
+    background-color: #1E140E;
+    display: flex;
+    padding: 150px 0;
+    justify-content: center;
+
 }
 
+.aboutText {
+    width: 60%;
+}
+
+.aboutText h2 {
+    color: #ffc600;
+    font-family: "Dokdo", cursive;
+}
+
+.aboutText p {
+    color: #FAFFFE;
+    font-size: 1rem;
+}
+
+.aboutText button,
+.button {
+    background-color: #555F02;
+    padding: 3px 5px;
+    font-family: "Dokdo", cursive;
+    line-height: 1.9rem;
+    font-size: 2rem;    
+    color: #FAFFFE;
+    border: none;
+}
+
+.homeAbout img {
+    width: 20%;
+    padding: 40px;
+}
 
 /* GALLERY */
 
+.homeGallery {
+    background:#262725;
+    padding: 10% 5%;
+    font-size: 0;
+    text-align: center;
+    display: flex;
+}
 
+.homeGallery img {
+    width: calc(33.33% - 4%);
+    margin: 2%;
+    flex-wrap: wrap;
+}
 
 /* NAVDESCRIPTION */
 
+.homeNavDescription {
+    display: flex;
+    flex-wrap: wrap;
+    background: #1E140E;
+    padding: 10%;
+}
+
+.homeNavDescription div {
+    width: 45%;
+}
+
+.homeNavDescription h2 {
+    font-size: 1rem;
+    color: #FFC600;
+    font-family: "Dokdo", cursive;
+
+}
+
+.homeNavDescription p {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    color: #FAFFFE;
+}
 
 
 /* ABOUTCONTINUED */
 
+.homeGroup,
+.homeLocation {
+    background-color: #262725;
+    display: flex;
+}
+
+.homeGroup img,
+.homeLocation img {
+    width: 40%;
+    box-shadow: 10px 10px 0 #ffc600;
+    transform: translateY(-20%);
+}
+
+.groupContent,
+.locationContent {
+
+    align-items: center;
+    width: 50%;
+    padding:9% 4%;
+    
+}
+
+.groupContent h2,
+.locationContent h2,
+.aboutContinuedFreeTrial h2 {
+    font-size: 2rem;
+    color: #FFC600;
+    font-family: "Dokdo", cursive;
+
+}
+
+.groupContent p,
+.locationContent p,
+.aboutContinuedFreeTrial p {
+    color: #FAFFFE;
+    font-family: "Lato", sans-serif;
+}
+
+img.homeBanner {
+    width: 100%;
+}
 
 
+
+.aboutContinuedFreeTrial {
+    background: #1E140E;
+}
+
+
+.aboutContinuedFreeTrial {
+padding: 10%;
+text-align: center;
+
+}
 /* FOOTER */
+
+footer {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: #262725;
+    color: #FAFFFE;
+    padding: 5px 0 2px 0;
+
+}
+                    
