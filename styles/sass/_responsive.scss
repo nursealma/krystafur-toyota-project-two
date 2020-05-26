@@ -1,0 +1,91 @@
+@media (max-width: 950px) {
+
+    .heroImage {
+        display: none;
+    }
+
+    .aboutText {
+        width: 100%;
+        margin-right: -20px;
+        padding-left: 20px;
+        text-align: center;;
+    }
+
+    .homeAbout img {
+        display: none;
+    }
+
+    .homeGallery img {
+        width: 45%;
+    }
+    .homeGallery img:last-child {
+    display: none;
+}
+
+    .homeNavDescription {
+        display: block;
+        
+        div {
+            width: 100%;
+        }
+    }
+.homeGroup,
+.homeLocation {
+    justify-content: center;
+}
+.groupContent
+.locationContent {
+    text-align: center;
+}
+
+.homeGroup img,
+.homeLocation img {
+    display: none;
+}
+
+.blogPost {
+    width: 100%;
+    text-align: center;
+    img {box-shadow: none;}
+}
+
+.blogHeader h1 {
+    top: 50px;
+}
+
+aside {
+    display: none;
+}
+
+.postContent {
+    h2 {padding: 20px}
+    h3 {padding: 20px}
+}
+
+
+.blogComments {
+    .commentsContent {
+        display: none;
+    }
+    .blogForm {
+        width: 100%;
+    }
+}
+
+.contactHeader h1 {
+    top: 0;
+    left: 50px;
+}
+
+.contactContent {
+    text-align: center;
+}
+
+.methodAddress {
+    bottom: 10px;
+    right:40%;
+    text-align: center;
+}
+
+}
+

@@ -4,58 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindnSoul | Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/bc5f092853.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
 
 <!-- HEADER contactHeader -->
 
-    <header class="contactHeader">
-        <nav>
-            <a class="headerLogo" href="./index.html">Mindn'Soul</a>
-            <ul class="headerNav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="./pages/blog.html" active>Blog</a></li>
-                <li><a href="./pages/contact.html" active>Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Get in Touch</h1>
-    </header>
-
-
-<!-- CONTACT FORM contactContent -->
-
-<div class="contactContent">
-    <form>
-        <input type="text" name="Name" placeholder="Name">
-        <input type="email" name="Email" placeholder="Email address">
-        <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-        <input type="submit" value="Submit">
-    </form>
-    <div class="contentMethod">
-        <div class="methodSocialIcons">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="methodAddress">
-            <h3>info@email.com</h3>
-            <h3>123-456-7890</h3>
-            <h3>123 Queen Street West,</h3>
-            <h3>Unit 10</h3>
-            <h3>Toronto, Ontario</h3>
-            <h3>M5V2D5</h3>
+    <div class="wrapper">
+        <header class="contactHeader">
+            <nav>
+                <a class="headerLogo" href="./index.html">Mindn'Soul</a>
+                <ul class="headerNav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="./blog.html" active>Blog</a></li>
+                    <li><a href="./contact.html" active>Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Get in Touch</h1>
+        </header>
+    
+    
+    <!-- CONTACT FORM contactContent -->
+    
+    <div class="contactContent">
+        <form action="" class="contactForm">
+            <input class="formName" type="text" name="name" placeholder="Name">
+            <input class="formEmail" type="email" name="email" placeholder="Email address">
+            <textarea class="formText" name="comment" placeholder="Message" cols="30" rows="10"></textarea>
+            <input class="button" type="submit" value="Submit">
+        </form>
+        <div class="contentMethod clearfix">
+            <div class="methodAddress">
+                <ul class="social">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+                <h3>info@email.com</h3>
+                <h3>123-456-7890</h3>
+                <h3>123 Queen Street West,</h3>
+                <h3>Unit 10</h3>
+                <h3>Toronto, Ontario</h3>
+                <h3>M5V2D5</h3>
+            </div>
         </div>
     </div>
-</div>
-
-
-<!-- FOOTER -->
-
-<footer>Copyright &copy; 2020 Juno College</footer>
+    
+    
+    <!-- FOOTER -->
+    
+    <footer>Copyright &copy; 2020 Juno College</footer>
+    </div>
 
 </body>
 </html>
